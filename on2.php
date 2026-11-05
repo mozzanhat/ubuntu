@@ -30,6 +30,7 @@ sanpham.php
         <?php
         foreach ($data as $key => $value) {
             echo "<tr>";
+            echo "Tinh nang moi B";
             echo "<td>" . ($key + 1) . "</td>";
             echo "<td>" , $value["masp"] , "</td>";
             echo "<td>" . $value["ten"] . "</td>";
