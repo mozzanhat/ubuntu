@@ -59,6 +59,7 @@
             $dsSP1Loai=$duLieu[$_POST['lst']]['sp'];
                 foreach ($dsSP1Loai as $thongTin1SP) {
                     echo '<tr>';
+                    echo "Tinh nang moi A" ;
                     echo '<td>',$thongTin1SP[0],'</td>';
                     echo '<td>',$thongTin1SP[1],'</td>';
                     echo '<td>',$thongTin1SP[2],'</td>';
